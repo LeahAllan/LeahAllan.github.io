@@ -1,0 +1,522 @@
+/* Leah Allan Style Sheet -- last updated Oct 20 2017 */
+
+
+
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+@font-face 
+{
+    font-family: LABTOP;
+    src: url(font/LABTOP__.ttf);
+}
+
+@font-face 
+{
+    font-family: PRINC;
+    src: url(font/PRINC___.TTF);
+}
+
+@font-face 
+{
+    font-family: AvenirNext-UltraLight;
+    src: url(font/AvenirNext-UltraLight.ttf);
+}
+
+@font-face 
+{
+    font-family: AvenirNext-UltraLightItalic;
+    src: url(font/AvenirNext-UltraLightItalic.ttf);
+}
+
+@font-face 
+{
+    font-family: AvenirNext-Regular;
+    src: url(font/AvenirNext-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: PRIND_2;
+    src: url(font/PRIND___.TTF);
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+
+
+#font1header
+{
+    font-family: LABTOP;
+        font-size: 600%;
+        text-decoration: none;
+            letter-spacing: 12px;
+
+
+}
+
+
+#font1sub
+{
+    font-family: PRINC;
+            font-size: 200%;
+                        letter-spacing: 2px;
+}
+
+#font1footer
+{
+    font-family: PRINC;
+                font-size: 100%;
+                        letter-spacing: 2px;
+                            color: rgb(255, 255, 255);
+    text-decoration: underline;
+
+}
+
+#font1-body
+{
+                font-size: 16px;
+    font-family: AvenirNext-Regular;
+                letter-spacing: 1px;
+
+}
+
+#font2
+{
+    font-family: AvenirNext-UltraLight;
+}
+
+#postdate
+{
+    font-family: AvenirNext-UltraLight;
+        color: rgb(0, 0, 0);
+
+
+}
+
+
+#font2-Italic
+{
+    font-family: AvenirNext-UltraLightItalic;
+}
+
+#font2-body    /* Blog post body */
+{
+    font-family: AvenirNext-Regular;
+    color: rgb(149, 149, 149);
+    
+    
+}
+
+#font2-bodyx2
+{
+    font-family: AvenirNext-Regular;
+   /* color: rgb(149, 149, 149); */
+}
+
+#font1blogtitle
+{
+    font-family: AvenirNext-UltraLight;
+            font-size: 230%;
+                        letter-spacing:1px;
+                            font-weight: lighter;
+
+}
+
+#titledefblog
+{
+    font-family: PRINC;
+            font-size: 170%;
+                        letter-spacing:0px;
+                            font-weight: darker;
+                           
+
+}
+
+
+#font1blogtitle2
+{
+    font-family: AvenirNext-UltraLight;
+            font-size: 230%;
+                        letter-spacing:1px;
+                            font-weight: lighter;
+color: rgb(255, 255, 255);
+
+
+}
+
+
+
+#blogcomments
+{
+    font-family: AvenirNext-Regular;
+                font-size: 120%;
+
+   /* color: rgb(149, 149, 149); */
+}
+
+
+#blog-publish-time-font
+{
+    font-family: PRIND_2;
+}
+
+
+#titledefblog
+{
+    font-family: PRINC;
+            font-size: 170%;
+                        letter-spacing:0px;
+                            font-weight: darker;
+                           
+
+}
+
+
+#titledefpost
+{
+    font-family: PRINC;
+            font-size: 170%;
+                        letter-spacing:0px;
+                            font-weight: darker;
+ text-decoration: none;
+
+                            
+}
+
+
+/* Link styling - blog post title text (link 1)----------------------------- */
+
+/* unvisited link */
+#titledefblog a:link {
+color: rgb(0, 0, 0);
+ text-decoration: none;
+    border-bottom: 1px solid black;}
+
+/* visited link */
+#titledefblog a:visited {
+color: rgb(0, 0, 0);
+ text-decoration: none;
+    border-bottom: 1px solid black;}
+
+/* mouse over link */
+#titledefblog a:hover {
+color: rgb(100, 100, 100);
+ text-decoration: none;
+    border-bottom: 1px solid rgb(100, 100, 100);
+;}
+
+/* selected link */
+#titledefblog a:active {
+color: rgb(0, 0, 0);
+ text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+
+/* Link styling - blog comments button (link 1)----------------------------- */
+
+/* unvisited link */
+#blogcomments a:link {
+color: rgb(0, 0, 0);
+ text-decoration: none;
+    border-bottom: 1px solid black;
+     
+     
+     border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+/* visited link */
+#blogcomments a:visited {
+color: rgb(0, 0, 0);
+ text-decoration: none;
+    border-bottom: 1px solid black;
+     
+     
+     border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+/* mouse over link */
+#blogcomments a:hover {
+color: rgb(100, 100, 100);
+ text-decoration: none;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    
+    
+     border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* selected link */
+#blogcomments a:active {
+color: rgb(0, 0, 0);
+ text-decoration: none;
+    border-bottom: 1px solid black;
+    
+    
+     border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
+/* Link styling - blog bottom post links (link 3)---POST FOOTER------------------------- */
+
+/* unvisited link */
+.link3pf a:link {
+color: rgb(203, 203, 203);
+    text-decoration: none;
+}
+
+/* visited link */
+.link3pf a:visited {
+color: rgb(163, 163, 163);
+    text-decoration: none;
+}
+
+/* mouse over link */
+.link3pf a:hover {
+color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* selected link */
+.link3pf a:active {
+color: rgb(220, 220, 220);
+    text-decoration: none;
+
+}
+
+
+
+
+/* HEADER LINK STYLE------------------------ */
+
+/* unvisited link */
+#font1header a:link {
+color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* visited link */
+#font1header a:visited {
+color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* mouse over link */
+#font1header a:hover {
+color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* selected link */
+#font1header a:active {
+color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+
+/* HR LINE STYLES ------------------------------------------------------- */
+
+
+#lines1 {
+height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+	width: 80%;
+	
+Center: text-align:center; margin: 0 auto;
+
+}
+
+
+/* -------------- Selected text START -------------- */
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: black;
+}
+
+::selection {
+    color: white; 
+    background: black;
+}
+/* -------------- Selected text END -------------- */
+
+
+
+/* Gradient color1 - color2 - color1 */
+
+hr.lines1 {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+
+
+
+/* Inset, by Dan Eden */
+
+hr.lines2 {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+
+/* -------------- SIDE NAVAGATION MENU-------------- */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+            
+    display: block;
+    transition: 0.3s;
+    
+    
+    color: rgb(0, 0, 0);
+ text-decoration: none;
+}
+
+.sidenav a:hover {
+    color: rgb(100, 100, 100);
+ text-decoration: none;
+ 
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#NAVfloat1{
+  position:fixed;
+  top: 5px;
+right: 20px;
+
+}
+
+#NAVfloat1{
+font-family: PRINC;
+letter-spacing:0px;
+font-weight: darker;
+
+            }
+            
+            
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            
+            /* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+          
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container1 {
+  width: auto;
+  
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+
+
+      
