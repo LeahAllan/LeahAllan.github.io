@@ -86,22 +86,45 @@ background: rgba(255, 255, 255, 0.4);
 @media all and (max-width:1091px){
     table.responsive-1 {
         width:100%;
+        display:block;
+
     }
     
     td.responsive-table-1 {
         display:block;
         width:100%;
+        
     }
     
     tr.responsive-table-1 {
         display:block;
+        width:100%;
+
+    }
+}
+@media all and (min-width:1092px){
+    table.responsive-1 {
+        width:100%;
+
+    }
+    
+    td.responsive-table-1 {
+        width:100%;
+        
+    }
+    
+    tr.responsive-table-1 {
+        width:100%;
+
     }
 }
 
+
 /* Responsive table (2) (IMG galleries) */
 
-@media all and (max-width:816px){
+@media all and (max-width:817px){
     table.responsive-2 {
+        display:block;
         width:100%;
     }
     
@@ -112,7 +135,26 @@ background: rgba(255, 255, 255, 0.4);
     
     tr.responsive-table-2 {
         display:block;
+        width:100%;
+
     }
+    
+}
+@media all and (min-width:818px){
+    table.responsive-2 {
+        width:100%;
+
+    }
+    
+    td.responsive-table-2 {
+   padding: 4px;
+
+    }
+    
+    tr.responsive-table-2 {
+
+    }
+    
 }
 
 
@@ -356,4 +398,3 @@ width: 100%;
   visibility: visible;
   
 }
-
