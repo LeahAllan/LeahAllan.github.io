@@ -1,0 +1,48 @@
+<style>
+#parent {
+
+}
+#narrow {
+  width: 200px;
+  background: lightblue;
+  /* Just so it's visible */
+}
+#wide {
+  flex: 1;
+  /* Grow to rest of container */
+  background: lightgreen;
+  /* Just so it's visible */
+}
+
+
+@media all and (max-width:1091px){
+
+#parent {
+  display: block;
+}    
+
+}
+
+@media all and (min-width:1092px){
+    
+ #parent {
+  display: flex;
+}
+
+}
+
+</style>
+
+
+
+<h2>MY SUPER DOOPER EPIC DEMO</h2>
+
+<div id="parent">
+  <div id="wide">Wide (rest of width)</div>
+  <div id="narrow">Narrow (200px)</div>
+</div>
+
+
+
+
+
