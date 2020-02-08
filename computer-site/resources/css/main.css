@@ -1,0 +1,359 @@
+/* Main CSS file for "Computer Terms, Trends, and Concepts." by Leah Allan 2020 */
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+
+
+      margin: 0 !important;
+    padding: 0 !important;
+    
+  margin-bottom: 60px; /* Margin bottom by footer height */
+
+min-width: 257px; 
+
+}
+
+
+/* page background */
+
+.bkg1 {
+
+  background-image: url("../img/bkg1.png");
+  background-color: white;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  height: inherit; 
+
+}
+
+
+/* page container backgrounds */
+
+.opacity1 {
+
+background: rgba(255, 255, 255, 0.4);
+
+  height: inherit; 
+  width: inherit; 
+
+}
+
+.header-cont {
+
+  background-image: url("../img/header-bkg.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+
+
+}
+
+
+/* "hello world" home page banner*/
+
+.helloworld-banner {
+  background-image: url("../img/Hello-world.jpg");
+  height: 130px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover, 100%;
+}
+
+
+/* Obviously the most important part of the site lol :)  */
+
+.signature {
+  background-image: url("../img/signature.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: initial;
+  height: 23px;
+  width: 198px;
+
+}
+
+
+/* Responsive table (1) (Header) */
+
+@media all and (max-width:1091px){
+    table.responsive-1 {
+        width:100%;
+    }
+    
+    td.responsive-table-1 {
+        display:block;
+        width:100%;
+    }
+    
+    tr.responsive-table-1 {
+        display:block;
+    }
+}
+
+/* Responsive table (2) (IMG galleries) */
+
+@media all and (max-width:816px){
+    table.responsive-2 {
+        width:100%;
+    }
+    
+    td.responsive-table-2 {
+        display:block;
+        width:100%;
+    }
+    
+    tr.responsive-table-2 {
+        display:block;
+    }
+}
+
+
+/* Sticky navbar */
+
+.stickynav {
+position: -webkit-sticky;
+position: sticky;
+top: 0;
+padding: 0px;
+
+z-index: 0;
+
+  background-color: white;
+
+}
+
+
+/* placeholder container while content is loading */
+
+.contentplaceholder {
+height: 95%;
+width: inherit;
+
+}
+
+
+/* Invisible links */
+
+a.invisablelink1, a:visited.invisablelink1, a:hover.invisablelink1, a:active.invisablelink1 {
+
+  color: black;
+    text-decoration: none;
+
+}
+
+
+/* break wrapper - prevents things from spilling out of containers */
+
+@media all and (max-width:403px){
+    
+    .break {
+    
+overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+	
+    }
+}
+
+
+/* page contents directory container */
+
+.pagecontentsdir {
+
+   border:1px solid #d8d8d8;
+
+}
+
+@media all and (min-width:1035px){
+    
+.pagecontentsdir {
+
+width: 36%;
+
+}
+}
+
+@media all and (max-width:1034px) and (min-width:578px){
+    
+.pagecontentsdir {
+
+width: 60%;
+
+}
+}
+
+@media all and (max-width:577px) and (min-width:500px){
+    
+.pagecontentsdir {
+
+width: 80%;
+
+}
+}
+
+@media all and (max-width:499px){
+    
+.pagecontentsdir {
+
+width: 100%;
+
+}
+}
+
+
+/* selected content colours */
+
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: black;
+}
+
+::selection {
+    color: white; 
+    background: black;
+    
+}
+    
+    
+/* Pure CSS lightbox - Adapted and modified from this tutorial: https://webdevtrick.com/html-css-image-lightbox/ */
+    
+.thumbnail {
+
+   border:1px solid #d8d8d8;
+
+  
+}
+
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 50;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	
+}
+
+.lightbox img {
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+	
+	left:0; right:0;
+    top:0; bottom:0;
+    
+}
+
+.lightbox:target {
+	outline: none;
+	display: block;
+	
+}
+
+@media (max-width:700px) {
+	.thumbnail {
+
+  width: 100%;
+
+	}
+	
+	.lightbox img {
+		
+	left:0; right:0;
+    top:0; bottom:0;
+    
+        margin-top: 50%;        
+
+	}
+}
+
+
+/* Fade in CSS animation */
+
+.fadein1 {
+    animation: fadein;
+    -moz-animation: fadein; /* Firefox */
+    -webkit-animation: fadein; /* Safari and Chrome */
+    -o-animation: fadein; /* Opera */
+   
+    animation-duration: 2s;
+    
+    z-index: -1;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* top of page button */
+
+#pageupbttn {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  visibility: hidden;
+  z-index: 0;
+  background-image: url("../img/up-arrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40px 30px;
+  
+}
+
+#pageupbttn.show {
+  visibility: visible;
+  
+}
+
