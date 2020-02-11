@@ -1,9 +1,0 @@
-Hi,
-
-Please note, that due to the use of Jquery, this website needs to be run in a local server environment like "Mamp", "Wamp", or on an actual web server.
-If you just try to open this on your computer in this folder, nothing will work.
-
-If you don't want to go to the trouble of setting up a local server, you can view the site here: https://leahallan.com/computer-site  I have hosted it on my web server.
-
-Thanks.
-Leah.
